@@ -10,7 +10,7 @@ const IndexPage = () => (
       <div className="HeroGroup">
       
     <h1>NYC Taxis Data</h1>
-    <p>This will be my data project about yellow and green taxissss</p>
+    <p>This will be my data project about yellow and green taxis</p>
     <Link to="/page-2/">See the data</Link>
     </div>
     </div>

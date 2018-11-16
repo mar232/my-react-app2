@@ -1,32 +1,17 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import './Header.css'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'darkblue',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
-        </Link>
-      </h1>
+  <div classname="Header">
+    <div classname="HeaderGroup">
+      <Link to="/"><img src={require('../images/logo-designcode.svg')} width="30" /></Link>
+      <Link to="/courses">Courses</Link>
+      <Link to="/download">Courses</Link>
+      <Link to="/workshops">Courses</Link>
+      <Link to="/buy"><button>Buy</button></Link>
     </div>
+    
   </div>
 )
 
